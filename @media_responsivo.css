@@ -1,0 +1,28 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.quadrado img{
+   max-width: 100%;
+   width: 1000px;
+}    
+@media (max-width: 600px){
+    .grid{
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+   
+}
+
+@media (min-width: 1000px){
+    p{
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 800px) and (max-width:1000px){
+    body{
+        background-color: blueviolet;
+    }
+}
